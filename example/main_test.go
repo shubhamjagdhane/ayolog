@@ -3,8 +3,9 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"mylog"
 	"testing"
+
+	"bitbucket.org/shubhamjagdhane_ayoconnect/mylog"
 )
 
 func BenchmarkDebug(b *testing.B) {

@@ -1,6 +1,6 @@
 package main
 
-import "mylog"
+import "bitbucket.org/shubhamjagdhane_ayoconnect/mylog"
 
 func main() {
 	log := mylog.New()
