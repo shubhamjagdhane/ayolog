@@ -1,4 +1,4 @@
-package mylog
+package ayolog
 
 import "time"
 

@@ -1,3 +1,3 @@
-module bitbucket.org/shubhamjagdhane_ayoconnect/mylog
+module github.com/shubhamjagdhane/ayolog
 
 go 1.18

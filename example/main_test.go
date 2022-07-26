@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"bitbucket.org/shubhamjagdhane_ayoconnect/mylog"
+	"github.com/shubhamjagdhane/ayolog"
 )
 
 func BenchmarkDebug(b *testing.B) {
-	log := mylog.New()
+	log := ayolog.New()
 	var buf bytes.Buffer
 	msg := "testing"
 	log.Out = &buf

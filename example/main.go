@@ -1,8 +1,8 @@
 package main
 
-import "bitbucket.org/shubhamjagdhane_ayoconnect/mylog"
+import "github.com/shubhamjagdhane/ayolog"
 
 func main() {
-	log := mylog.New()
+	log := ayolog.New()
 	log.Debug("Test")
 }
